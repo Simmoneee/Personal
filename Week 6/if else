@@ -2,11 +2,17 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         // Conditional Structure
-        boolean ihaveNoMoney = false;
-
-        if (ihaveNoMoney) {
-            System.out.println("Ask your parents to drive you to NU");
-        } else {
+        boolean suspended = true;
+        boolean holiday = false;
+        if (suspended) {
+          
+            System.out.println("Stay at home");
+        } 
+        else if (holiday) { 
+          
+            System.out.println ("Spend time with family");
+        }
+        else {
             // Step 1
             walkLRT();
 
