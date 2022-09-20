@@ -1,0 +1,78 @@
+
+// import the Scanner class
+import java.util.Scanner;
+
+public class App {
+
+    // Scanner Object
+    static Scanner scan = new Scanner(System.in);
+
+    public static void main(String[] args) {
+
+        // Method call
+        int product = multiply();
+        System.out.println("The sum is: " + product);
+
+        // Method call
+        int quotient= Divide();
+        System.out.println("The difference is: " + quotient);
+
+        // Method call
+        int sum = add();
+        System.out.println("The sum is: "+ sum);
+
+        // Method call
+        int difference = subtract();
+        System.out.println("The difference is: " + difference);
+        
+
+        // close scanner
+        scan.close();
+    }
+     static int multiply() {
+        System.out.println("This method will mulitply two numbers from user input");
+        System.out.print("Enter the first number: ");
+        int x = scan.nextInt();
+
+       System.out.print("Enter the second number: ");
+       int y = scan.nextInt();
+        return x * y;
+     }
+
+    static int Divide() {
+        System.out.println("This method will divide two number from user input ");
+        System.out.print(" Enter the first number: ");
+        int x = scan.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int y = scan.nextInt();
+
+        return x / y;
+
+}
+    static int add (){
+        System.out.println(" This method will add the two numbers");
+        System.out.print("Enter the first number: ");
+        int x = scan.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int y = scan.nextInt();
+
+        return x + y;
+
+    }
+    static int subtract() {
+        System.out.println("This method will subtract the both numbers");
+        System.out.print("Enter first number");
+
+        int x = scan.nextInt();
+
+        System.out.print("Enter second number");
+        int y = scan.nextInt();
+
+        return x - y;
+
+}
+
+
+}
