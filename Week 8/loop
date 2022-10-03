@@ -36,7 +36,7 @@ public class App {
 
             System.out.println("SIMMONE");
         }
-         
+         // CONTINUE
             for (int i = 5; i != 0; i--) {
 
             if (i == 3) {
