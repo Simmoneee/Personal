@@ -20,5 +20,18 @@ public class App {
                 System.out.println("Delos reyes");
                 lastNameCount--;
             } while (lastNameCount != 0);
+         //BREAK
+        for (int i = 5; i != 0; i--) {
+
+            if (i == 1) {
+                System.out.println("Wait! Timeout! I need to go to the bathroom");
+               break;
+            }
+
+            System.out.println("SIMMONE");
         }
+        }
+}
+       
+       }
 }
