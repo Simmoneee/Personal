@@ -9,9 +9,15 @@ public class App {
         //  WHILE
             int nickNameCount = 5;
     
-            while (nickNameCount != 0) {
+            while (nickNameCount != 0) { 
+                  nickNameCount--;
+                    if (nickNameCount == 4) {
+                System.out.println("Go ahead i will skip this third loop. i will ride on the next loop!");
+                continue;
+            }
+
                 System.out.println("Sim");
-                nickNameCount--;
+              
         }
         // DO WHILE
              int lastNameCount = 5;
@@ -20,7 +26,7 @@ public class App {
                 System.out.println("Delos reyes");
                 lastNameCount--;
             } while (lastNameCount != 0);
-         //BREAK
+         // BREAK
         for (int i = 5; i != 0; i--) {
 
             if (i == 1) {
@@ -30,8 +36,15 @@ public class App {
 
             System.out.println("SIMMONE");
         }
+         
+            for (int i = 5; i != 0; i--) {
+
+            if (i == 3) {
+                System.out.println("Go ahead i will skip this third loop. i will ride on the next loop!");
+                continue;
+            }
+
+            System.out.println("Woooooo!.. I can do this all day!");
         }
-}
-       
-       }
+    }
 }
